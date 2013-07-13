@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Random_No_Mirror-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-28 16:47-0400\n"
+"POT-Creation-Date: 2013-07-13 11:21-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,14 +80,14 @@ msgstr ""
 msgid "Forces a random faction and avoids mirrors, for Era of Heroes"
 msgstr ""
 
-#. [modification]: id=Random_No_Mirror_extented
+#. [modification]: id=Random_No_Mirror_extended
 #: ./Random_No_Mirror/_main.cfg:124
-msgid "Random No Mirror (Extented Era)"
+msgid "Random No Mirror (Extended Era)"
 msgstr ""
 
-#. [modification]: id=Random_No_Mirror_extented
+#. [modification]: id=Random_No_Mirror_extended
 #: ./Random_No_Mirror/_main.cfg:125
-msgid "Forces a random faction and avoids mirrors, for Extented Era"
+msgid "Forces a random faction and avoids mirrors, for Extended Era"
 msgstr ""
 
 #. [checkbox]: id=RNME_disable_dark_elves
@@ -195,22 +195,22 @@ msgstr ""
 msgid "Just for fun. Not balanced"
 msgstr ""
 
-#. [modification]: id=trewes_mods_RR
+#. [modification]: id=Random_Recruits
 #: ./Random_No_Mirror/_main.cfg:283
 msgid "Random Recruits"
 msgstr ""
 
-#. [modification]: id=trewes_mods_RR
+#. [modification]: id=Random_Recruits
 #: ./Random_No_Mirror/_main.cfg:284
 msgid "Will set your recruitlist totaly random choosen from all mainline units (but based on leader level)"
 msgstr ""
 
-#. [modification]: id=trewes_mods_PYR
+#. [modification]: id=Pick_Your_Recruits
 #: ./Random_No_Mirror/_main.cfg:290
 msgid "Pick Your Recruits"
 msgstr ""
 
-#. [modification]: id=trewes_mods_PYR
+#. [modification]: id=Pick_Your_Recruits
 #: ./Random_No_Mirror/_main.cfg:291
 msgid "Allows to pick freely all units from default era to recruit."
 msgstr ""
