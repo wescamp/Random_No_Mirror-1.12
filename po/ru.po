@@ -1,22 +1,25 @@
+#
+# TreefeedXavier <treefeed@mail.ru>, 2014.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Random_No_Mirror-1.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-03 21:30+0100\n"
-"PO-Revision-Date: 2013-03-28 16:47-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2014-03-22 21:38+0200\n"
+"Last-Translator: TreefeedXavier <treefeed@mail.ru>\n"
+"Language-Team: русский <>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\n\n"
 
 #. [modification]: id=xY_Random_No_Mirror
 #: Random_No_Mirror/_main.cfg:11
 msgid "Random No Mirror"
-msgstr ""
+msgstr "Случайно без повторов"
 
 #. [modification]: id=xY_Random_No_Mirror
 #: Random_No_Mirror/_main.cfg:12
@@ -24,91 +27,95 @@ msgid ""
 "Forces a random faction from the selected era to be choosen and avoids "
 "mirrors."
 msgstr ""
+"Принуждает выбрать случайную фракцию из указанной эры, не позволяя повторы."
 
 #. [modification]: id=xY_Leader_Traits
 #: Random_No_Mirror/_main.cfg:18
 msgid "Traits for Leaders"
-msgstr ""
+msgstr "Черты лидеров"
 
 #. [checkbox]: id=xY_Random_Traits_nerf_leadership_units
 #: Random_No_Mirror/_main.cfg:23
 msgid "Aged Trait for units with leadership"
-msgstr ""
+msgstr "Возрастные черты для бойцов с лидерством"
 
 #. [checkbox]: id=xY_Random_Traits_nerf_healing_units
 #: Random_No_Mirror/_main.cfg:28
 msgid "Dim Trait for healers"
-msgstr ""
+msgstr "Туманные черты для лекарей"
 
 #. [checkbox]: id=xY_Random_Traits_nerf_units_with_specials
 #: Random_No_Mirror/_main.cfg:33
 msgid "Weak Trait for units with special abilities"
-msgstr ""
+msgstr "Полупрозрачные черты для бойцов со специальными способностями"
 
 #. [modification]: id=xY_Pick_Your_Recruits
 #: Random_No_Mirror/_main.cfg:42
 msgid "Pick Your Recruits"
-msgstr ""
+msgstr "Выберите ваших рекрутов"
 
 #. [modification]: id=xY_Pick_Your_Recruits
 #: Random_No_Mirror/_main.cfg:43
 msgid "Choose your recruits from the selected era at game start"
-msgstr ""
+msgstr "Выберите ваших рекрутов из указанной эры и игра начнётся"
 
 #. [slider]: id=xY_PYR_recruits
 #: Random_No_Mirror/_main.cfg:48
 msgid "Recruits"
-msgstr ""
+msgstr "Рекруты"
 
 #. [slider]: id=xY_PYR_recruits
 #: Random_No_Mirror/_main.cfg:49
 msgid "Choose how many recruits are allowed to pick up"
-msgstr ""
+msgstr "Выберите, сколько рекрутов можно нанимать"
 
 #. [slider]: id=xY_PYR_gold
 #: Random_No_Mirror/_main.cfg:57
 msgid "Gold"
-msgstr ""
+msgstr "Золото"
 
 #. [slider]: id=xY_PYR_gold
 #: Random_No_Mirror/_main.cfg:58
 msgid "How much gold can be spended for recruits"
-msgstr ""
+msgstr "Сколько золота можно потратить на рекрутов"
 
 #: Random_No_Mirror/_main.cfg:70
 msgid "Automatic End Turn"
-msgstr ""
+msgstr "Автоматическое завершение хода"
 
 #: Random_No_Mirror/_main.cfg:71
 msgid ""
 "Automatically ends your turn if no units are able to either move, attack or "
 "recruit. (use with care)"
 msgstr ""
+"Автоматически завершает ваш ход если нет бойцов, способных ходить, атаковать "
+"или наняться (использовать с осторожностью)."
 
 #. [set_menu_item]: id=PYR_reset_picks
 #: Random_No_Mirror/utils/PYR.cfg:67
 msgid "Show current recruits"
-msgstr ""
+msgstr "Показать текущих рекрутов"
 
 #. [value]
 #: Random_No_Mirror/utils/PYR.cfg:78
 msgid "Discard $PYR_side_$side_number|_current_recruits[$i_temp].language_name"
 msgstr ""
+"Уволить $PYR_side_$side_number|_current_recruits[$i_temp].language_name"
 
 #. [message]: speaker=narrator
 #: Random_No_Mirror/utils/PYR.cfg:107
 msgid "Manage your current recruits"
-msgstr ""
+msgstr "Управляйте вашими текущими рекрутами"
 
 #. [option]: speaker=narrator
 #: Random_No_Mirror/utils/PYR.cfg:113
 msgid "Nevermind"
-msgstr ""
+msgstr "Не важно"
 
 #. [message]: speaker=narrator
 #: Random_No_Mirror/utils/PYR.cfg:161
 msgid "Pick Your Recruits Mod"
-msgstr ""
+msgstr "Выберите ваш мод рекрутов"
 
 #. [message]: speaker=narrator
 #: Random_No_Mirror/utils/PYR.cfg:162
@@ -128,11 +135,25 @@ msgid ""
 "If you made a mistake while picking your recruits, you can reset your picks "
 "from the right-click context menu and start over."
 msgstr ""
+"<span color='black'>-</span>\n"
+"В игре <b>Выбери своего рекрута</b> вы тратите первый ход на выбор: бойца "
+"какого типа вы желаете включить. Игра начинается обычным образом на втором "
+"ходе, когда выбранные бойцы становятся доступными для найма. Выбор типов "
+"бойцов совершается при помощи обычного меню найма, которое показывает всех "
+"доступных бойцов в первом туре. Другие игроки не видят, какой выбор вы "
+"делате.\n"
+"<span color='black'>-</span>\n"
+"Вы можете свободно выбрать до <b><span foreground='#00ff00'>"
+"$xY_PYR_recruits</span> бойцов</b> пока их совокупная стоимость не превысит "
+"<b><span foreground='gold'>$xY_PYR_gold</span> золотых</b>.\n"
+"<span color='black'>-</span>\n"
+"Если вы сделаете ошибку во время выбора ваших рекрутов, вы можете сбросить "
+"ваш выбор из контекстного меню (правый клик) и начать заново."
 
 #. [message]: speaker=narrator
 #: Random_No_Mirror/utils/PYR.cfg:214
 msgid "$unit.language_name has been added to your recruitlist"
-msgstr ""
+msgstr "$unit.language_name был добавлен к вашим рекрутам"
 
 #. [message]: speaker=narrator
 #: Random_No_Mirror/utils/PYR.cfg:216
@@ -140,6 +161,8 @@ msgid ""
 "Your current recruits:\n"
 "<i>$PYR_temp</i>"
 msgstr ""
+"Ваши рекруты:\n"
+"<i>$PYR_temp</i>"
 
 #. [message]: speaker=narrator
 #: Random_No_Mirror/utils/PYR.cfg:243
@@ -147,3 +170,5 @@ msgid ""
 "The game now begins normally with everyone having the proper starting gold "
 "and the recruit list they picked on the first turn."
 msgstr ""
+"Теперь игра пойдёт как обычно, с указанным количеством стартового золота и "
+"рекрутами из выбранного на первом ходе списка."
